@@ -46,8 +46,11 @@
 			width: 100%;
 			position: relative;
 			border-collapse: collapse;
-
-			
+		}
+		.image-table2 {
+			width: 100%;
+			position: relative;
+			border-collapse: collapse;	
 		}
 		.text2 {
             position: absolute;
@@ -58,11 +61,12 @@
 		
 		.button {
 			position: absolute;
-		    top: 1430px;
+			top: 1430px;
 			padding-right: 1000px;
-			padding-left: 1000px;		
-
-            padding: 16px 37.5px;
+			padding-left: 1000px;	
+		 	
+            text-decoration: none;
+            padding: 16px 20px;
             border-radius: 8px;
             cursor: pointer;
             border: 0;
@@ -70,26 +74,90 @@
             box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
             letter-spacing: 1.5px;
             text-transform: uppercase;
-            font-size: 20px;
+            font-size: 15px;
+            transition: all 0.5s ease;
+        }
+        .button:hover {
+            letter-spacing: 3px;
+            background-color: #C00F0C;
+            color: #C00F0C;
+            box-shadow: rgb(236 34 30) 0px 7px 29px 0px;
+         }
+
+        .button:active {
+           letter-spacing: 3px;
+           background-color: #C00F0C;
+           color: #C00F0C;
+           box-shadow: rgb(192 15 12) 0px 0px 0px 0px;
+           transform: translateY(10px);
+           transition: 100ms;
+        }
+
+		.button2 {
+			text-decoration: none;
+            padding: 16px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            border: 0;
+            background-color: #EC221F;
+            box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            font-size: 15px;
             transition: all 0.5s ease;
         }
 
-		button:hover {
-  letter-spacing: 3px;
-  background-color: #C00F0C;
-  color: #C00F0C;
-  box-shadow: rgb(236 34 30) 0px 7px 29px 0px;
-}
+		.button2:hover {
+            letter-spacing: 3px;
+            background-color: #C00F0C;
+            color: #C00F0C;
+            box-shadow: rgb(236 34 30) 0px 7px 29px 0px;
+         }
 
-button:active {
-  letter-spacing: 3px;
-  background-color: #C00F0C;
-  color: #C00F0C;
-  box-shadow: rgb(192 15 12) 0px 0px 0px 0px;
-  transform: translateY(10px);
-  transition: 100ms;
-}
-		
+        .button2:active {
+           letter-spacing: 3px;
+           background-color: #C00F0C;
+           color: #C00F0C;
+           box-shadow: rgb(192 15 12) 0px 0px 0px 0px;
+           transform: translateY(10px);
+           transition: 100ms;
+        }
+		h2{
+			font-size: 20px;
+			font-weight: 400px;
+			margin: 0;
+
+		}
+		.c3{
+			
+			font-size: 0;
+		}
+		.c4{
+			width: 100%;
+			max-width: 300px;
+			display: inline-block;
+			vertical-align: middle;
+
+		}
+		.c5{
+		  padding: 20px;	
+		}
+		.c6{
+			font-size: 20px
+		}
+
+		.text-e2 {
+            position: absolute;
+		    top: 5%;
+			padding-left: 70px;	
+			font-weight: 400;
+		}
+		.yes {
+			position: absolute;
+			
+			
+			
+		}
 		@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 	</style>
@@ -104,9 +172,10 @@ button:active {
 			  <td height="8" style="background-color: #062A4A;"></td>
 		    </tr>
            <!--background -->
-			<table class="main" width="100%" style="background-image: url('img/back.png'); background-size: cover; background-position: center;">
-
-
+		   <tr>
+			<td><table class="main" width="100%" style="background-image: url('img/back.png'); background-size: cover; background-position: center;"></td>
+		   </tr>
+			
             <!-- LOGO -->
             <tr>
 				<td style="padding-top: 39px; padding-left: 31px;">
@@ -120,14 +189,14 @@ button:active {
 					<h1 class="text1">Discover Luxury Living in Lekki Phase 1-Limited Units Available!</h1>
 				</td>
 			</tr>
-           <!-- TWo COLUMN SECTION -->
+           <!-- 1 COLUMN SECTION -->
             <tr>
 				<td>
 					<a href="#"><img src="img/pic1.png" alt="carrillion" width="231" style="width: 544px; height: auto; padding-top: 56px; padding-left: 31px;  "></a>
 				</td>
 			</tr>
 			
-			<!-- THREE COLUMN SECTION -->
+			<!-- 2 COLUMN SECTION -->
 		        	
             <tr class="image-table">
 			    <td class="image-cell"> 
@@ -139,17 +208,138 @@ button:active {
 		    </tr>
 
 			<tr class="button1">
-				<td style="padding-left: 32px;">
-					<button class="button" style="color: #ffffff; " >Button</button>
+				<td style="padding-left: 32px; ">
+					<a href="#" class="button" style="color: #ffffff; ">Learn More</a>
 				</td>
 			</tr>
-
+           <!-- 3 COUPON SECTION -->
 			<tr>
-				<td>
-					
+				<td style="padding: 30px 0 5px;">
+					<table width="100%">
+
+						<tr>
+							<td class="c3">
+                                
+								<table class="c4">
+									<tr>
+										<td class="c5">
+
+                                            <table class="c6">
+												<tr>
+													<td>
+														<a ><img src="img/pic3.png" alt="" width="258.65px"></a>
+													</td>
+												</tr>
+											</table>
+
+										</td>
+									</tr>
+								</table>
+                                
+								<table class="c4">
+									<tr>
+										<td class="c5">
+
+                                            <table class="c6">
+												<tr>
+													<td>
+														<h2>Flexible Payment Plan</h2>
+													</td>
+												</tr>
+
+												<tr>
+													<td>
+														<p>30% initial deposit Balance spread over 24 months</p>
+													</td>
+												</tr>
+												
+												<tr>
+													<td>
+														<a href="#" class="button2" style="color: #ffffff;">Learn More</a>
+													</td>
+												</tr>
+											</table>
+
+										</td>
+									</tr>
+								</table>
+
+							</td>
+						</tr>
+
+
+						<tr>
+							<td class="c3">
+
+								<table class="c4">
+									<tr>
+										<td class="c5">
+
+                                            <table class="c6">
+												<tr>
+													<td>
+														<h2>Investment Opportunity</h2>
+													</td>
+												</tr>
+
+												<tr>
+													<td>
+														<p>Not only will you enjoy unparalleled comfort and luxury, but you could also earn between N25M and N30M annually by investing in this masterpiece.</p>
+													</td>
+												</tr>
+												
+												<tr>
+													<td>
+														<a href="#" class="button2" style="color: #ffffff;">Learn More</a>
+													</td>
+												</tr>
+											</table>
+
+										</td>
+									</tr>
+								</table>
+                                
+								<table class="c4"  >
+									<tr>
+										<td class="c5">
+
+                                            <table class="c6">
+												<tr>
+													<td>
+														<a ><img src="img/pic2.png" alt="" width="258.65px"></a>
+													</td>
+												</tr>
+											</table>
+
+										</td>
+									</tr>
+								</table>
+                                
+							</td>
+						</tr>
+
+					</table>
 				</td>
 			</tr>
-			
+                 
+              <!-- 4 COUPON SECTION -->
+			<tr class="image-table2">
+			    <td class="image-cell2"> 
+				   <a href="#"><img src="img/back1.png" alt="" style="width: 539px; height: 940px; padding-top: 50px; padding-left: 30px; "></a>  
+				   <p class="text-e2" style="color: #ffffff; font-size: 36px; ">Exclusive Features</p>
+				   <a class="yes"><img src="img/yes.png" alt="" style="width: 35px; height: 35px;"></a>  
+				   
+
+			    </td>
+		    </tr>
+			<tr class="yes1">
+			    <td class="yes2"> 
+				   <a class="yes"><img src="img/yes.png" alt="" style="width: 35px; height: 35px;"></a>  
+				   
+
+			    </td>
+		    </tr>
+ 
            <!-- COUPON SECTION -->
 
 
